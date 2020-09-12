@@ -1,2 +1,1 @@
-# Codechef Coding
- Solutions
+Competetive Programming & Contests solution
