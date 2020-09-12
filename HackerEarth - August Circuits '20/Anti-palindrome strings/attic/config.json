@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/aman/Documents/CP/Codeforces/HackerEarth - August Circuits '20/Anti-palindrome strings/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "Anti-palindrome strings",
+      "group": "HackerEarth - August Circuits '20",
+      "url": "https://www.hackerearth.com/challenges/competitive/august-circuits-20/algorithm/anti-plaindrome-2-72ff6f62/",
+      "memoryLimit": 256,
+      "timeLimit": 1000
+    }
+  }
+}
