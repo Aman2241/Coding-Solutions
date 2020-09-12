@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "B - Multiple of 9",
+      "group": "AtCoder - AtCoder Beginner Contest 176",
+      "url": "https://atcoder.jp/contests/abc176/tasks/abc176_b",
+      "memoryLimit": 1024,
+      "timeLimit": 2000
+    }
+  }
+}

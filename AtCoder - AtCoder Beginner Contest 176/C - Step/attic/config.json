@@ -1,0 +1,17 @@
+{
+  "mainSolution": {
+    "value": "/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/C - Step/sol.cpp"
+  },
+  "bruteSolution": {},
+  "generator": {},
+  "checker": {},
+  "companionConfig": {
+    "value": {
+      "name": "C - Step",
+      "group": "AtCoder - AtCoder Beginner Contest 176",
+      "url": "https://atcoder.jp/contests/abc176/tasks/abc176_c",
+      "memoryLimit": 1024,
+      "timeLimit": 2000
+    }
+  }
+}

@@ -1,0 +1,962 @@
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:6:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator==[m[K’ (operand types are ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} and ‘[01m[Kchar[m[K’)
+   49 |  if([32m[Kn[m[K[01;31m[K==[m[K[34m[K'0'[m[K)
+      |     [32m[K~[m[K[01;31m[K^~[m[K[34m[K~~~[m[K
+      |     [32m[K|[m[K  [34m[K|[m[K
+      |     [32m[K|[m[K  [34m[Kchar[m[K
+      |     [32m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1026:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _BiIter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+ 1026 |     [01;36m[Koperator[m[K==(const sub_match<_BiIter>& __lhs, const sub_match<_BiIter>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1026:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1099:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator==(std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+ 1099 |     [01;36m[Koperator[m[K==(const __sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1099:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1173:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter, class _Ch_traits, class _Ch_alloc> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, std::__cxx11::__sub_match_string<_Bi_iter, _Ch_traits, _Ch_alloc>&)[m[K’
+ 1173 |     [01;36m[Koperator[m[K==(const sub_match<_Bi_iter>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1173:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1247:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const typename std::iterator_traits<_Iter>::value_type*, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+ 1247 |     [01;36m[Koperator[m[K==(typename iterator_traits<_Bi_iter>::value_type const* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1247:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1321:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type*)[m[K’
+ 1321 |     [01;36m[Koperator[m[K==(const sub_match<_Bi_iter>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1395:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const typename std::iterator_traits<_Iter>::value_type&, const std::__cxx11::sub_match<_BiIter>&)[m[K’
+ 1395 |     [01;36m[Koperator[m[K==(typename iterator_traits<_Bi_iter>::value_type const& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1395:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1473:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter> bool std::__cxx11::operator==(const std::__cxx11::sub_match<_BiIter>&, const typename std::iterator_traits<_Iter>::value_type&)[m[K’
+ 1473 |     [01;36m[Koperator[m[K==(const sub_match<_Bi_iter>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1473:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::sub_match<_BiIter>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/regex:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:110[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/regex.h:1991:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Bi_iter, class _Alloc> bool std::__cxx11::operator==(const std::__cxx11::match_results<_BiIter, _Alloc>&, const std::__cxx11::match_results<_BiIter, _Alloc>&)[m[K’
+ 1991 |     [01;36m[Koperator[m[K==(const match_results<_Bi_iter, _Alloc>& __m1,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/regex.h:1991:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::match_results<_BiIter, _Alloc>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:64[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator==(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+  448 |     [01;36m[Koperator[m[K==(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_pair.h:448:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+  325 |     [01;36m[Koperator[m[K==(const reverse_iterator<_Iterator>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:325:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+  363 |     [01;36m[Koperator[m[K==(const reverse_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:363:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1139:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+ 1139 |     [01;36m[Koperator[m[K==(const move_iterator<_IteratorL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1139:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1145:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator==(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+ 1145 |     [01;36m[Koperator[m[K==(const move_iterator<_Iterator>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:1145:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/iosfwd:40[m[K,
+                 from [01m[K/usr/include/c++/9/ios:38[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _StateT> bool std::operator==(const std::fpos<_StateT>&, const std::fpos<_StateT>&)[m[K’
+  222 |     [01;36m[Koperator[m[K==(const fpos<_StateT>& __lhs, const fpos<_StateT>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/postypes.h:222:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::fpos<_StateT>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:168:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> bool std::operator==(const std::allocator<_CharT>&, const std::allocator<_T2>&)[m[K’
+  168 |     [01;36m[Koperator[m[K==(const allocator<_T1>&, const allocator<_T2>&)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:168:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::allocator<_CharT>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/string_view:473:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+  473 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:473:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/string_view:479:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::basic_string_view<_CharT, _Traits>, std::__detail::__idt<std::basic_string_view<_CharT, _Traits> >)[m[K’
+  479 |     [01;36m[Koperator[m[K==(basic_string_view<_CharT, _Traits> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:479:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/basic_string.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/string_view:485:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator==(std::__detail::__idt<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+  485 |     [01;36m[Koperator[m[K==(__detail::__idt<basic_string_view<_CharT, _Traits>> __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/string_view:485:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6141:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6141 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6141:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6149:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT> typename __gnu_cxx::__enable_if<std::__is_char<_Tp>::__value, bool>::__type std::operator==(const std::__cxx11::basic_string<_CharT>&, const std::__cxx11::basic_string<_CharT>&)[m[K’
+ 6149 |     [01;36m[Koperator[m[K==(const basic_string<_CharT>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6149:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__cxx11::basic_string<_CharT>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6163:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+ 6163 |     [01;36m[Koperator[m[K==(const _CharT* __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6163:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6175:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator==(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+ 6175 |     [01;36m[Koperator[m[K==(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/basic_string.h:6175:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/ios_base.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/system_error:292:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_code&)[m[K’
+  292 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_code& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:292:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+  292 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:297:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_code&, const std::error_condition&)[m[K’
+  297 |   [01;36m[Koperator[m[K==(const error_code& __lhs, const error_condition& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:297:32:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_code&[m[K’
+  297 |   operator==([01;36m[Kconst error_code& __lhs[m[K, const error_condition& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:304:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_code&)[m[K’
+  304 |   [01;36m[Koperator[m[K==(const error_condition& __lhs, const error_code& __rhs) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:304:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+  304 |   operator==([01;36m[Kconst error_condition& __lhs[m[K, const error_code& __rhs) noexcept
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:311:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::error_condition&, const std::error_condition&)[m[K’
+  311 |   [01;36m[Koperator[m[K==(const error_condition& __lhs,
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/system_error:311:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::error_condition&[m[K’
+  311 |   operator==([01;36m[Kconst error_condition& __lhs[m[K,
+      |              [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/locale_facets.h:48[m[K,
+                 from [01m[K/usr/include/c++/9/bits/basic_ios.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/ios:44[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> bool std::operator==(const std::istreambuf_iterator<_CharT, _Traits>&, const std::istreambuf_iterator<_CharT, _Traits>&)[m[K’
+  208 |     [01;36m[Koperator[m[K==(const istreambuf_iterator<_CharT, _Traits>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/streambuf_iterator.h:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::istreambuf_iterator<_CharT, _Traits>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:459:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  459 |     [01;36m[Koperator[m[K==(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:459:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:464:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::complex<_Tp>&, const _Tp&)[m[K’
+  464 |     [01;36m[Koperator[m[K==(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:464:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:469:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const _Tp&, const std::complex<_Tp>&)[m[K’
+  469 |     [01;36m[Koperator[m[K==(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:469:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::complex<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/functional:54[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/array:252:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator==(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+  252 |     [01;36m[Koperator[m[K==(const array<_Tp, _Nm>& __one, const array<_Tp, _Nm>& __two)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/array:252:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/functional:54[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/tuple:1419:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator==(const std::tuple<_Tps ...>&, const std::tuple<_Elements ...>&)[m[K’
+ 1419 |     [01;36m[Koperator[m[K==(const tuple<_TElements...>& __t,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/tuple:1419:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/functional:59[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:746:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(const std::function<_Res(_ArgTypes ...)>&, std::nullptr_t)[m[K’
+  746 |     [01;36m[Koperator[m[K==(const function<_Res(_Args...)>& __f, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:746:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/functional:59[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/std_function.h:752:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Res, class ... _Args> bool std::operator==(std::nullptr_t, const std::function<_Res(_ArgTypes ...)>&)[m[K’
+  752 |     [01;36m[Koperator[m[K==(nullptr_t, const function<_Res(_Args...)>& __f) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/std_function.h:752:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::function<_Res(_ArgTypes ...)>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/optional:983:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Tp>() == declval<_Up>()))> std::operator==(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+  983 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:983:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/optional:1034:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+ 1034 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, nullopt_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1034:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/optional:1039:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator==(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+ 1039 |     [01;36m[Koperator[m[K==(nullopt_t, const optional<_Tp>& __rhs) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1039:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/optional:1095:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Tp>() == declval<_Up>()))> std::operator==(const std::optional<_Tp>&, const _Up&)[m[K’
+ 1095 |     [01;36m[Koperator[m[K==(const optional<_Tp>& __lhs, const _Up& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1095:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/node_handle.h:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/hashtable.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/unordered_map:46[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/optional:1101:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_relop_t<decltype ((declval<_Up>() == declval<_Tp>()))> std::operator==(const _Up&, const std::optional<_Tp>&)[m[K’
+ 1101 |     [01;36m[Koperator[m[K==(const _Up& __lhs, const optional<_Tp>& __rhs)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/optional:1101:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::optional<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2091:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 2091 |     [01;36m[Koperator[m[K==(const unordered_map<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2091:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_map<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_map:47[m[K,
+                 from [01m[K/usr/include/c++/9/functional:61[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2103:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key1, class _Tp1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 2103 |     [01;36m[Koperator[m[K==(const unordered_multimap<_Key, _Tp, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_map.h:2103:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_multimap<_Key1, _Tp1, _Hash1, _Pred1, _Alloc1>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/vector:67[m[K,
+                 from [01m[K/usr/include/c++/9/functional:62[m[K,
+                 from [01m[K/usr/include/c++/9/pstl/glue_algorithm_defs.h:13[m[K,
+                 from [01m[K/usr/include/c++/9/algorithm:71[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:65[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+ 1888 |     [01;36m[Koperator[m[K==(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_vector.h:1888:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/deque:67[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:68[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_deque.h:286:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Ref, class _Ptr> bool std::operator==(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _Ref, _Ptr>&)[m[K’
+  286 |     [01;36m[Koperator[m[K==(const _Deque_iterator<_Tp, _Ref, _Ptr>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_deque.h:286:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/deque:67[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:68[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_deque.h:293:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _RefL, class _PtrL, class _RefR, class _PtrR> bool std::operator==(const std::_Deque_iterator<_Tp, _Ref, _Ptr>&, const std::_Deque_iterator<_Tp, _RefR, _PtrR>&)[m[K’
+  293 |     [01;36m[Koperator[m[K==(const _Deque_iterator<_Tp, _RefL, _PtrL>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_deque.h:293:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Deque_iterator<_Tp, _Ref, _Ptr>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/deque:67[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:68[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_deque.h:2312:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)[m[K’
+ 2312 |     [01;36m[Koperator[m[K==(const deque<_Tp, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_deque.h:2312:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/locale_conv.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/locale:43[m[K,
+                 from [01m[K/usr/include/c++/9/iomanip:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:715:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+  715 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:715:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/locale_conv.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/locale:43[m[K,
+                 from [01m[K/usr/include/c++/9/iomanip:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:721:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+  721 |     [01;36m[Koperator[m[K==(const unique_ptr<_Tp, _Dp>& __x, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:721:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/locale_conv.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/locale:43[m[K,
+                 from [01m[K/usr/include/c++/9/iomanip:43[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:72[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:726:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator==(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+  726 |     [01;36m[Koperator[m[K==(nullptr_t, const unique_ptr<_Tp, _Dp>& __x) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unique_ptr.h:726:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/iterator:66[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:77[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stream_iterator.h:134:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _CharT, class _Traits, class _Dist> bool std::operator==(const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&, const std::istream_iterator<_Tp, _CharT, _Traits, _Dist>&)[m[K’
+  134 |     [01;36m[Koperator[m[K==(const istream_iterator<_Tp, _CharT, _Traits, _Dist>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stream_iterator.h:134:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::istream_iterator<_Tp, _CharT, _Traits, _Dist>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/list:63[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:79[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_list.h:1991:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+ 1991 |     [01;36m[Koperator[m[K==(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_list.h:1991:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/map:61[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:81[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_map.h:1455:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+ 1455 |     [01;36m[Koperator[m[K==(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_map.h:1455:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/map:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:81[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator==(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+ 1119 |     [01;36m[Koperator[m[K==(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_multimap.h:1119:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp1, class _Tp2, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+ 1412 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp1, _Lp>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1412:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+ 1418 |     [01;36m[Koperator[m[K==(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1418:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+                 from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator==(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+ 1423 |     [01;36m[Koperator[m[K==(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1423:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:383:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator==(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+  383 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:383:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:388:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+  388 |     [01;36m[Koperator[m[K==(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:388:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/memory:81[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:82[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:393:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator==(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+  393 |     [01;36m[Koperator[m[K==(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/shared_ptr.h:393:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/queue:64[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:86[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_queue.h:338:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::operator==(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)[m[K’
+  338 |     [01;36m[Koperator[m[K==(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_queue.h:338:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::queue<_Tp, _Seq>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/set:61[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:87[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_set.h:979:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+  979 |     [01;36m[Koperator[m[K==(const set<_Key, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_set.h:979:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/set:62[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:87[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_multiset.h:964:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator==(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+  964 |     [01;36m[Koperator[m[K==(const multiset<_Key, _Compare, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_multiset.h:964:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/stack:61[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:89[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_stack.h:313:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::operator==(const std::stack<_Tp, _Seq>&, const std::stack<_Tp, _Seq>&)[m[K’
+  313 |     [01;36m[Koperator[m[K==(const stack<_Tp, _Seq>& __x, const stack<_Tp, _Seq>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_stack.h:313:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::stack<_Tp, _Seq>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom1, class _Dom2> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_Expr, _Dom1, _Dom2>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::_Expr<_Dom2, typename _Dom2::value_type>&)[m[K’
+  417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, __equal_to)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_Constant, _Dom, typename _Dom::value_type>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const typename _Dom::value_type&)[m[K’
+  417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, __equal_to)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Constant, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const typename _Dom::value_type&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+  417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, __equal_to)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Expr, std::_ValArray, _Dom, typename _Dom::value_type>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::_Expr<_Dom1, typename _Dom1::value_type>&, const std::valarray<typename _Dom::value_type>&)[m[K’
+  417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, __equal_to)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/valarray:603[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Dom> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_Expr, typename _Dom::value_type, _Dom>, typename std::__fun<std::__equal_to, typename _Dom1::value_type>::result_type> std::operator==(const std::valarray<typename _Dom::value_type>&, const std::_Expr<_Dom1, typename _Dom1::value_type>&)[m[K’
+  417 |     [01;36m[K_DEFINE_EXPR_BINARY_OPERATOR[m[K(==, __equal_to)
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/valarray_after.h:417:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::_Expr<_Dom1, typename _Dom1::value_type>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/valarray:1197:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const std::valarray<_Tp>&, const std::valarray<_Tp>&)[m[K’
+ 1197 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(==, __equal_to)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/valarray:1197:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/valarray:1197:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_ValArray, std::_Constant, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const std::valarray<_Tp>&, const typename std::valarray<_Tp>::value_type&)[m[K’
+ 1197 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(==, __equal_to)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/valarray:1197:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::valarray<_Tp>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:95[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/valarray:1197:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::_Expr<std::__detail::_BinClos<std::__equal_to, std::_Constant, std::_ValArray, _Tp, _Tp>, typename std::__fun<std::__equal_to, _Tp>::result_type> std::operator==(const typename std::valarray<_Tp>::value_type&, const std::valarray<_Tp>&)[m[K’
+ 1197 | [01;36m[K_DEFINE_BINARY_OPERATOR[m[K(==, __equal_to)
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/valarray:1197:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst std::valarray<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/forward_list:40[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:104[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/forward_list.tcc:393:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator==(const std::forward_list<_Tp, _Alloc>&, const std::forward_list<_Tp, _Alloc>&)[m[K’
+  393 |     [01;36m[Koperator[m[K==(const forward_list<_Tp, _Alloc>& __lx,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/forward_list.tcc:393:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::forward_list<_Tp, _Alloc>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/future:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:105[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/thread:276:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(std::thread::id, std::thread::id)[m[K’
+  276 |   [01;36m[Koperator[m[K==(thread::id __x, thread::id __y) noexcept
+      |   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/thread:276:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::thread::id[m[K’
+  276 |   operator==([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+      |              [01;36m[K~~~~~~~~~~~^~~[m[K
+In file included from [01m[K/usr/include/c++/9/random:51[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:108[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/random.tcc:1884:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _RealType1> bool std::operator==(const std::normal_distribution<_RealType>&, const std::normal_distribution<_RealType>&)[m[K’
+ 1884 |     [01;36m[Koperator[m[K==(const std::normal_distribution<_RealType>& __d1,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/random.tcc:1884:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::normal_distribution<_RealType>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:111[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/scoped_allocator:489:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _OutA1, class _OutA2, class ... _InA> bool std::operator==(const std::scoped_allocator_adaptor<_OutA1, _InA ...>&, const std::scoped_allocator_adaptor<_InnerHead, _InnerTail ...>&)[m[K’
+  489 |     [01;36m[Koperator[m[K==(const scoped_allocator_adaptor<_OutA1, _InA...>& __a,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/scoped_allocator:489:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::scoped_allocator_adaptor<_OutA1, _InA ...>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_set:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:118[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1703:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 1703 |     [01;36m[Koperator[m[K==(const unordered_set<_Value, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1703:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_set<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/unordered_set:47[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:118[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1715:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Value1, class _Hash1, class _Pred1, class _Alloc1> bool std::operator==(const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&, const std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>&)[m[K’
+ 1715 |     [01;36m[Koperator[m[K==(const unordered_multiset<_Value, _Hash, _Pred, _Alloc>& __x,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/unordered_set.h:1715:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::unordered_multiset<_Value1, _Hash1, _Pred1, _Alloc1>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:133[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/variant:1177:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator==(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+ 1177 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/variant:1177:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:133[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/variant:1177:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator==(std::monostate, std::monostate)[m[K’
+ 1177 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/9/variant:1177:3:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd::monostate[m[K’
+ 1177 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(==, equal)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/string:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/allocator.h:156:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator==(const std::allocator<char>&, const std::allocator<char>&)[m[K’
+  156 |       [01;36m[Koperator[m[K==(const allocator&, const allocator&) _GLIBCXX_NOTHROW
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/allocator.h:156:18:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst std::allocator<char>&[m[K’
+  156 |       operator==([01;36m[Kconst allocator&[m[K, const allocator&) _GLIBCXX_NOTHROW
+      |                  [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:886:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_IteratorL, _Container>&, const __gnu_cxx::__normal_iterator<_IteratorR, _Container>&)[m[K’
+  886 |     [01;36m[Koperator[m[K==(const __normal_iterator<_IteratorL, _Container>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:886:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_IteratorL, _Container>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/c++/9/bits/stl_algobase.h:67[m[K,
+                 from [01m[K/usr/include/c++/9/bits/specfun.h:45[m[K,
+                 from [01m[K/usr/include/c++/9/cmath:1927[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:41[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:893:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator, class _Container> bool __gnu_cxx::operator==(const __gnu_cxx::__normal_iterator<_Iterator, _Container>&, const __gnu_cxx::__normal_iterator<_Iterator, _Container>&)[m[K’
+  893 |     [01;36m[Koperator[m[K==(const __normal_iterator<_Iterator, _Container>& __lhs,
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/bits/stl_iterator.h:893:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} is not derived from ‘[01m[Kconst __gnu_cxx::__normal_iterator<_Iterator, _Container>[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/9/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/9/string:41[m[K,
+                 from [01m[K/usr/include/c++/9/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/9/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/9/ios:42[m[K,
+                 from [01m[K/usr/include/c++/9/istream:38[m[K,
+                 from [01m[K/usr/include/c++/9/sstream:38[m[K,
+                 from [01m[K/usr/include/c++/9/complex:45[m[K,
+                 from [01m[K/usr/include/c++/9/ccomplex:39[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/c++/9/bits/stdc++.h:54[m[K,
+                 from [01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:1[m[K:
+[01m[K/usr/include/c++/9/ext/new_allocator.h:167:2:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up> bool __gnu_cxx::operator==(const __gnu_cxx::new_allocator<char>&, const __gnu_cxx::new_allocator<_Tp>&)[m[K’
+  167 |  [01;36m[Koperator[m[K==(const new_allocator&, const new_allocator<_Up>&)
+      |  [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/ext/new_allocator.h:167:2:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/aman/Documents/CP/Codeforces/AtCoder - AtCoder Beginner Contest 176/B - Multiple of 9/sol.cpp:49:8:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst __gnu_cxx::new_allocator<_Tp>[m[K’ and ‘[01m[Kchar[m[K’
+   49 |  if(n==[01;36m[K'0'[m[K)
+      |        [01;36m[K^~~[m[K
